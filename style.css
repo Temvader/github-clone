@@ -1,0 +1,157 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+*{
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+    background-color: transparent;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 1em;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+.main{
+    height: 100vh;
+    background: url(assets/fon_bgr2.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5em;
+    padding: 7em 15em;
+}
+
+.galaxy{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.938);
+    padding: 10px;
+    border-radius: 50px;
+    border: .1px solid #6E7681;
+    font-size: 22px;
+}
+.star{
+    height: 60px;
+}
+.registr{
+    font-size: 20px;
+    font-weight: 400;
+    color: #6E7681;
+}
+.move{
+    height: 30px;
+}
+
+.lets{
+    font-size: 110px;
+}
+
+.harnessed{
+    color: #8B949E;
+    line-height: 1.3em;
+    font-size: 30px;
+}
+
+.find_and_start{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.find{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    border: none;
+}
+.email, .sign{
+    padding: 10px;
+}
+
+.tap{
+    width: 250px;
+    height: 50px;
+    background-color: #6E40C9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+}
+
+.line_vertical{
+    height: 55px;
+    width: 2px;
+    background-color: #30363D;
+}
+
+.start{
+    height: 50px;
+    background-color: transparent;
+    border-color: #BC8CFF;
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+}
+.s_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.move_btn{
+    height: 20px;
+}
+
+
+.sponsors{
+    padding: 3em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.s_text{
+    display: flex;
+    align-items: center;
+    color: #6E7681;
+    font-size: 15px;
+    gap: 5px;
+}
+.r_e{
+    height: 10px;
+}
+
+.coorp{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+.spons{
+    height: 45px;
+}
